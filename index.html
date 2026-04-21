@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio - Julio Caldeira</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0d1117;
+      color: #c9d1d9;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      margin-bottom: 10px;
+    }
+
+    header p {
+      color: #8b949e;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #161b22;
+      padding: 20px;
+      border-radius: 10px;
+      transition: 0.3s;
+      border: 1px solid #30363d;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      border-color: #58a6ff;
+    }
+
+    .card h3 {
+      margin-top: 0;
+    }
+
+    .card a {
+      display: inline-block;
+      margin-top: 10px;
+      text-decoration: none;
+      color: #58a6ff;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #8b949e;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>🚀 Julio Caldeira</h1>
+    <p>Projetos em Bootstrap</p>
+  </header>
+
+  <div class="container">
+    <div class="grid">
+
+      <div class="card">
+        <h3>📚 Meteora</h3>
+        <a href="./Meteora/">Ver projeto</a>
+      </div>
+
+      <div class="card">
+        <h3>🎬 Serenatto</h3>
+        <a href="./Serenatto/">Ver projeto</a>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2026 - Julio Caldeira</p>
+  </footer>
+
+</body>
+</html>
